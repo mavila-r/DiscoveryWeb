@@ -1,0 +1,36 @@
+body{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(17, 92, 95);
+}
+
+.table{
+	margin: 0 auto;
+	
+	border:rgb(17, 92, 95) 3px solid;
+	border-radius: 15px;
+	background-color: rgb(168, 226, 220);
+	padding: 20px;
+}
+
+.info{
+	font-style: italic;
+	font-size: smaller;
+}
+
+.profile{
+	width: 300px;
+	border-radius: 15px;
+}
+
+.icons{
+	width: 40px;
+}
+
+.boton{
+	border:rgb(17, 92, 95) 1px solid;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgb(216, 238, 236);
+	color:rgb(17, 92, 95);
+}

@@ -1,0 +1,16 @@
+html, body
+{
+height: 100%;
+weight: 100%;
+}
+
+td{
+	width: 50%;
+}
+td.celda1{
+background-color:turquoise
+}
+
+td.celda2{
+background-color:yellow
+}

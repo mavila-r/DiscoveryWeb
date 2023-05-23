@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<link rel="stylesheet" href="backgroound.css"/>
+	</head>
+		
+	<script>
+		function RandomColor(){
+			var RR = Math.floor(Math.random()*256);
+			var GG = Math.floor(Math.random()*256);
+			var BB = Math.floor(Math.random()*256);
+			document.body.style.backgroundColor=`rgb(${RR},${GG},${BB}`
+		}
+	</script>
+
+	<body>
+		<button class="boton" onclick="RandomColor()">Click me</button>
+	</body>
+</html>

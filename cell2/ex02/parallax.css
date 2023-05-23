@@ -1,0 +1,35 @@
+body, html{
+	margin: 0%;
+}
+
+.parallax{
+	height: 100vh;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#img1{
+	background-image: url(dalmatas.jpeg);
+}
+
+#img2{
+	background-image: url(labrador.jpeg);
+}
+
+.solid{
+	background-color: black;
+	height: 110vh;
+}
+
+.texts{
+	color:white;
+	position:relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
+}
